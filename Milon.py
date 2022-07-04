@@ -27,7 +27,7 @@ def update():
         toolVersion = "ToxicNoob"
     
     try:
-        mainVersion = requests.get("https://raw.githubusercontent.com/SMRmilon01/smrBomber/main/more/.version").text
+        mainVersion = requests.get("https://raw.githubusercontent.com/ToxicNoob/ToxicBomber/main/more/.version").text
     except:
         psb("\n\033[92m    [\033[91m!\033[92m] Please Connect To The Internet!")
         time.sleep(1)
@@ -42,13 +42,13 @@ def update():
     time.sleep(0.5)
     psb("\033[92m    [\033[37m!\033[92m] Updating Tool...")
     
-    os.system("cd .. && rm -rf ToxicBomber && git clone https://github.com/SMRmilon01/smrBomber > /dev/null 2>&1")
+    os.system("cd .. && rm -rf ToxicBomber && git clone https://github.com/ToxicNoob/ToxicBomber > /dev/null 2>&1")
     
     psb("\n\033[92m    [\033[37m*\033[92m] Update Complete!")
     psb("\033[92m    [\033[37m*\033[92m] Starting Tool...")
     time.sleep(0.8)
     
-    os.system("cd .. && cd smrBomber && python Milon.py")
+    os.system("cd .. && cd ToxicBomber && python Milon.py")
 
 
 #Logo
