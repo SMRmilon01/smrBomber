@@ -42,7 +42,7 @@ def update():
     time.sleep(0.5)
     psb("\033[92m    [\033[37m!\033[92m] Updating Tool...")
     
-    os.system("cd .. && rm -rf smrBomber && git clone https://github.com/SMRmilon01/smrBomber > /dev/null 2>&1")
+    os.system("cd .. && rm -rf ToxicBomber && git clone https://github.com/SMRmilon01/smrBomber > /dev/null 2>&1")
     
     psb("\n\033[92m    [\033[37m*\033[92m] Update Complete!")
     psb("\033[92m    [\033[37m*\033[92m] Starting Tool...")
